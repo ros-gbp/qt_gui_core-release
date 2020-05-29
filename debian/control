@@ -1,0 +1,12 @@
+Source: ros-noetic-qt-dotgraph
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pygraphviz, python3-setuptools, ros-noetic-catkin
+Homepage: http://ros.org/wiki/qt_dotgraph
+Standards-Version: 3.9.2
+
+Package: ros-noetic-qt-dotgraph
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-pydot, ros-noetic-python-qt-binding (>= 0.3.0)
+Description: qt_dotgraph provides helpers to work with dot graphs.
