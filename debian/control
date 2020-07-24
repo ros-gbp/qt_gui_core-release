@@ -1,0 +1,12 @@
+Source: ros-noetic-qt-gui-core
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/qt_gui_core
+Standards-Version: 3.9.2
+
+Package: ros-noetic-qt-gui-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-qt-dotgraph (>= 0.3.0), ros-noetic-qt-gui (>= 0.3.0), ros-noetic-qt-gui-app (>= 0.3.0), ros-noetic-qt-gui-cpp (>= 0.3.0), ros-noetic-qt-gui-py-common (>= 0.3.0)
+Description: Integration of the ROS package system and ROS-specific plugins for a Qt-based GUI.
