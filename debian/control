@@ -1,0 +1,12 @@
+Source: ros-kinetic-qt-gui-core
+Section: misc
+Priority: optional
+Maintainer: Scott Logan <cottsay@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/qt_gui_core
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-qt-gui-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-qt-dotgraph (>= 0.3.0), ros-kinetic-qt-gui (>= 0.3.0), ros-kinetic-qt-gui-app (>= 0.3.0), ros-kinetic-qt-gui-cpp (>= 0.3.0), ros-kinetic-qt-gui-py-common (>= 0.3.0)
+Description: Integration of the ROS package system and ROS-specific plugins for a Qt-based GUI.
