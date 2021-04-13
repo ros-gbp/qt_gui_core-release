@@ -34,6 +34,8 @@
 #define NULL 0
 #endif
 
+#include "pyside2_global.h"
+
 #include <QtCore/QtCore>
 #include <QtGui/QtGui>
 #include <QtWidgets/QtWidgets>
