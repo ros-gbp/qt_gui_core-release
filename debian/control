@@ -1,0 +1,12 @@
+Source: ros-kinetic-qt-dotgraph
+Section: misc
+Priority: optional
+Maintainer: Scott Logan <cottsay@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python-pygraphviz, ros-kinetic-catkin
+Homepage: http://ros.org/wiki/qt_dotgraph
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-qt-dotgraph
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-pydot, ros-kinetic-python-qt-binding (>= 0.3.0)
+Description: qt_dotgraph provides helpers to work with dot graphs.
