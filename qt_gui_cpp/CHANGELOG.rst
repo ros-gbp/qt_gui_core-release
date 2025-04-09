@@ -2,10 +2,24 @@
 Changelog for package qt_gui_cpp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.18 (2021-04-12)
--------------------
-* Update Maintainers (`#240 <https://github.com/ros-visualization/qt_gui_core/issues/240>`_) (`#241 <https://github.com/ros-visualization/qt_gui_core/issues/241>`_)
-* Contributors: Shane Loretz
+0.4.3 (2025-04-09)
+------------------
+* Backport https://github.com/ros-visualization/qt_gui_core/pull/176 (`#260 <https://github.com/ros-visualization/qt_gui_core/issues/260>`_)
+* Update Maintainers (`#240 <https://github.com/ros-visualization/qt_gui_core/issues/240>`_)
+* Contributors: Shane Loretz, Tobias Fischer
+
+0.4.2 (2020-07-24)
+------------------
+* quiet upstream Qt5 warnings (`#210 <https://github.com/ros-visualization/qt_gui_core/issues/210>`_) (`#229 <https://github.com/ros-visualization/qt_gui_core/issues/229>`_)
+* declare private assignment operator for SIP (`#226 <https://github.com/ros-visualization/qt_gui_core/issues/226>`_)
+
+0.4.1 (2020-05-28)
+------------------
+* use setuptools instead of distutils (`#209 <https://github.com/ros-visualization/qt_gui_core/issues/209>`_)
+
+0.4.0 (2020-02-28)
+------------------
+* fix namespace in typesystem.xml (`#201 <https://github.com/ros-visualization/qt_gui_core/issues/201>`_)
 
 0.3.17 (2020-02-28)
 -------------------
