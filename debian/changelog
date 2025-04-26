@@ -1,0 +1,317 @@
+ros-noetic-qt-gui (0.4.5-1focal) focal; urgency=high
+
+  * Bump cmake_minimum_required to avoid deprecation (#303 <https://github.com/ros-visualization/qt_gui_core/issues/303>)
+  * Contributors: Arne Hitzmann
+
+ -- Scott Logan <cottsay@openrobotics.org>  Sat, 26 Apr 2025 00:00:00 -0000
+
+ros-noetic-qt-gui (0.4.3-1focal) focal; urgency=high
+
+  * Fix 'dict_keys' object not subscriptable (#245 <https://github.com/ros-visualization/qt_gui_core/issues/245>)
+  * Update Maintainers (#240 <https://github.com/ros-visualization/qt_gui_core/issues/240>)
+  * Allow hide title in standalone (#235 <https://github.com/ros-visualization/qt_gui_core/issues/235>)
+  * Contributors: Adi Vardi, Michael Jeronimo, Shane Loretz
+
+ -- Scott Logan <cottsay@openrobotics.org>  Wed, 09 Apr 2025 00:00:00 -0000
+
+ros-noetic-qt-gui (0.4.2-1focal) focal; urgency=high
+
+  * fix exporting perspective for Python 3.6 (#228 <https://github.com/ros-visualization/qt_gui_core/issues/228>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 24 Jul 2020 00:00:00 -0000
+
+ros-noetic-qt-gui (0.4.1-1focal) focal; urgency=high
+
+  * use setuptools instead of distutils (#209 <https://github.com/ros-visualization/qt_gui_core/issues/209>)
+  * fix export perspective with Python 3 (#217 <https://github.com/ros-visualization/qt_gui_core/issues/217>)
+  * fix runtime error on shutdown (#213 <https://github.com/ros-visualization/qt_gui_core/issues/213>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 28 May 2020 00:00:00 -0000
+
+ros-noetic-qt-gui (0.4.0-1focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 28 Feb 2020 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.17-1focal) focal; urgency=high
+
+  * bump CMake minimum version to avoid CMP0048 warning (#206 <https://github.com/ros-visualization/qt_gui_core/issues/206>)
+  * use native default icon theme if suitable (#202 <https://github.com/ros-visualization/qt_gui_core/issues/202>)
+  * fix title bar buttons rendering on macOS (#205 <https://github.com/ros-visualization/qt_gui_core/issues/205>)
+  * fix platform check for macOS in themeSearchPaths patching (#204 <https://github.com/ros-visualization/qt_gui_core/issues/204>)
+  * auto adjust main window if standalone (#199 <https://github.com/ros-visualization/qt_gui_core/issues/199>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 28 Feb 2020 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.16-1focal) focal; urgency=high
+
+  * fix UI to enter perspective name (#198 <https://github.com/ros-visualization/qt_gui_core/issues/198>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 04 Dec 2019 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.15-1focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 23 Oct 2019 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.14-1focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 03 Oct 2019 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.13-1focal) focal; urgency=high
+
+  * add Python 3 dependencies with conditions (#184 <https://github.com/ros-visualization/qt_gui_core/issues/184>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 30 Sep 2019 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.12-1focal) focal; urgency=high
+
+  * fix C++ Settings methods allKeys, childGroups, childKeys (#182 <https://github.com/ros-visualization/qt_gui_core/issues/182>)
+  * add missing QtCore import (#178 <https://github.com/ros-visualization/qt_gui_core/issues/178>)
+  * fix changing dictionary during iteration (#167 <https://github.com/ros-visualization/qt_gui_core/issues/167>)
+  * fix typo (#164 <https://github.com/ros-visualization/qt_gui_core/issues/164>)
+  * remove obsolete maintainer (#160 <https://github.com/ros-visualization/qt_gui_core/issues/160>)
+  * fix warning message (#143 <https://github.com/ros-visualization/qt_gui_core/issues/143>)
+  * changes for flake8 and ROS2 compatible style changes (#130 <https://github.com/ros-visualization/qt_gui_core/issues/130>)
+  * autopep8 (#123 <https://github.com/ros-visualization/qt_gui_core/issues/123>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 30 Sep 2019 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.11-1focal) focal; urgency=high
+
+  * fix path being set for exporting perspective (#121 <https://github.com/ros-visualization/qt_gui_core/issues/121>, regression from 0.3.9)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 29 Aug 2018 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.10-1focal) focal; urgency=high
+
+  * keep multi_process variable in standalone mode (#120 <https://github.com/ros-visualization/qt_gui_core/issues/120>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 05 Aug 2018 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.9-1focal) focal; urgency=high
+
+  * load and save perspective file path and name adjustments (#118 <https://github.com/ros-visualization/qt_gui_core/issues/118>)
+  * add hint to run with --force-discover, when no plugin found (#119 <https://github.com/ros-visualization/qt_gui_core/issues/119>)
+  * remove --multi-process command line argument (#116 <https://github.com/ros-visualization/qt_gui_core/issues/116>)
+  * avoid crash when a plugin in .perspective is not available (#110 <https://github.com/ros-visualization/qt_gui_core/issues/110>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 03 Aug 2018 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.8-1focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 03 Nov 2017 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.7-1focal) focal; urgency=high
+
+  * Hide the menu bar when using lock perspective (#103 <https://github.com/ros-visualization/qt_gui_core/issues/103>)
+  * Fix for Python 3 compatibility (#104 <https://github.com/ros-visualization/qt_gui_core/issues/104>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 25 Oct 2017 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.6-1focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 03 Aug 2017 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.5-1focal) focal; urgency=high
+
+  * remove trailing spaces from exported perspective files (#92 <https://github.com/ros-visualization/qt_gui_core/issues/92>)
+  * fix perspective export with Python3 (#91 <https://github.com/ros-visualization/qt_gui_core/pull/91>)
+  * hide the remaining title bar elements not disabled by -l and -f (#90 <https://github.com/ros-visualization/qt_gui_core/issues/90>)
+  * use file name for rqt window title when loading a .perspective (#84 <https://github.com/ros-visualization/qt_gui_core/pull/84>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 27 Jul 2017 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.4-1focal) focal; urgency=high
+
+  * use Python 3 compatible syntax (#81 <https://github.com/ros-visualization/qt_gui_core/pull/81>)
+  * fix leftover dock widgets when using --command-switch-perspective (#80 <https://github.com/ros-visualization/qt_gui_core/pull/80>)
+  * make finding new parent logic more robust (#76 <https://github.com/ros-visualization/qt_gui_core/pull/76>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 24 Jan 2017 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.3-1focal) focal; urgency=high
+
+  * remove attribute AA_X11InitThreads which is obsolete in Qt 5
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 19 Sep 2016 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.2-1focal) focal; urgency=high
+
+  * only restore state on toolbars which have an object name (#65 <https://github.com/ros-visualization/qt_gui_core/pull/65>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 21 Apr 2016 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.1-1focal) focal; urgency=high
+
+  * workaround bug (QTBUG-52582) in QMenu with Qt 5 (ros-visualization/python_qt_binding#33 <https://github.com/ros-visualization/python_qt_binding/issues/33>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 18 Apr 2016 00:00:00 -0000
+
+ros-noetic-qt-gui (0.3.0-1focal) focal; urgency=high
+
+  * switch to Qt5 (#64 <https://github.com/ros-visualization/qt_gui_core/pull/64>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 01 Apr 2016 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.30-1focal) focal; urgency=high
+
+  * add X11 threading for ssh display (#62 <https://github.com/ros-visualization/qt_gui_core/pull/62>)
+  * allow renaming dock widgets (#63 <https://github.com/ros-visualization/qt_gui_core/pull/63>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 30 Mar 2016 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.29-1focal) focal; urgency=high
+
+  * use icon of standalone plugin for app (#54 <https://github.com/ros-visualization/qt_gui_core/pull/54>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sat, 19 Sep 2015 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.28-1focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 08 Jun 2015 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.27-1focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 29 Apr 2015 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.26-1focal) focal; urgency=high
+
+  * prevent floating of plugins via double-click when -f flag is set (#48 <https://github.com/ros-visualization/qt_gui_core/issues/48>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Mon, 18 Aug 2014 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.25-1focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 10 Jul 2014 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.24-1focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 21 May 2014 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.23-1focal) focal; urgency=high
+
+  * fix ToolBarArea type with PySide
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 07 May 2014 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.22-1focal) focal; urgency=high
+
+  * add shutdown notification for plugin providers (#39 <https://github.com/ros-visualization/qt_gui_core/issues/39>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 04 Mar 2014 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.21-1focal) focal; urgency=high
+
+  * add keyboard shortcuts for static menu entries
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 12 Feb 2014 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.20-1focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 19 Jan 2014 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.19-1focal) focal; urgency=high
+
+  * added prefix for the plugin managers settings to allow for multiple caches
+  * support minimize for containers (#30 <https://github.com/ros-visualization/qt_gui_core/issues/30>)
+  * fix stacktrace when closing container via 'x' in title bar (#32 <https://github.com/ros-visualization/qt_gui_core/issues/32>)
+  * fix toolbar area type conversion for pyside
+  * update icon for container
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 08 Jan 2014 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.18-1focal) focal; urgency=high
+
+  * improve startup time (#28 <https://github.com/ros-visualization/qt_gui_core/issues/28>)
+  * rename rqt window title
+  * exit application when standalone plugin fails to load
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 09 Oct 2013 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.17-1focal) focal; urgency=high
+
+  * add PluginLoadError for know errors to avoid printing stacktraces (ros-visualization/rqt#85 <https://github.com/ros-visualization/rqt/issues/85>)
+  * inherit icons from plugin menu for dock widgets
+  * fix several OS X related rendering issues, mostly icons and bring the window to front on startup (ros-visualization/rqt#83 <https://github.com/ros-visualization/rqt/issues/83>)
+  * fix about dialog to not show application icon
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Wed, 21 Aug 2013 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.16-1focal) focal; urgency=high
+
+  * make plugin resources relative to plugin.xml (instead of package.xml) (#16 <https://github.com/ros-visualization/qt_gui_core/issues/16>)
+  * add feature to minimize dock widgets (#13 <https://github.com/ros-visualization/qt_gui_core/issues/13>)
+  * add feature that each each dock widget can show its own window icon (#19 <https://github.com/ros-visualization/qt_gui_core/issues/19>)
+  * add option '--perspective-file' to load exported perspective from a file via cli (#18 <https://github.com/ros-visualization/qt_gui_core/issues/18>)
+  * add option '-f' to freeze layout of dock widgets (#21 <https://github.com/ros-visualization/qt_gui_core/issues/21>)
+  * restrict reparenting to specific main windows, prevent reparenting into arbitrary main windows (#14 <https://github.com/ros-visualization/qt_gui_core/issues/14>)
+  * fix help provider
+  * fix container being closable even when perspective is locked (#20 <https://github.com/ros-visualization/qt_gui_core/issues/20>)
+  * fix search path of theme icons for OS X (#17 <https://github.com/ros-visualization/qt_gui_core/issues/17>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 06 Jun 2013 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.15-1focal) focal; urgency=high
+
+  * revert changes to help_provider from 0.2.13
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Tue, 02 Apr 2013 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.14-1focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 28 Mar 2013 22:42:00 -0000
+
+ros-noetic-qt-gui (0.2.13-1focal) focal; urgency=high
+
+  * modify help_provider
+  * fix menu bar visibility on OS X
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 28 Mar 2013 18:08:00 -0000
+
+ros-noetic-qt-gui (0.2.12-1focal) focal; urgency=high
+
+  * fix when dbus is available but no session bus (#9 <https://github.com/ros-visualization/qt_gui_core/issues/9>)
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Thu, 17 Jan 2013 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.11-1focal) focal; urgency=high
+
+
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Sun, 13 Jan 2013 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.10-1focal) focal; urgency=high
+
+  * add option -t option to keep windows always on top
+  * enable plugins to provide their arguments for the command line
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 11 Jan 2013 00:00:00 -0000
+
+ros-noetic-qt-gui (0.2.9-1focal) focal; urgency=high
+
+  * first public release for Groovy
+
+ -- Dirk Thomas <dthomas@osrfoundation.org>  Fri, 21 Dec 2012 00:00:00 -0000
+
+
