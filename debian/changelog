@@ -1,8 +1,0 @@
-ros-noetic-qt-gui-core (0.4.3-2focal) focal; urgency=high
-
-  * Update Maintainers (#240 <https://github.com/ros-visualization/qt_gui_core/issues/240>)
-  * Contributors: Shane Loretz
-
- -- Scott Logan <cottsay@openrobotics.org>  Wed, 09 Apr 2025 00:00:00 -0000
-
-
